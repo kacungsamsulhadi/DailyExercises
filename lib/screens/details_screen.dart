@@ -60,27 +60,33 @@ class DetailsScreen extends StatelessWidget {
                       runSpacing: 20,
                       children: <Widget>[
                         SeassionCard(
+                          //session1
                           seassionNum: 1,
                           isDone: true,
                           press: () {},
                         ),
                         SeassionCard(
+                          //session2
                           seassionNum: 2,
                           press: () {},
                         ),
                         SeassionCard(
+                          //session3
                           seassionNum: 3,
                           press: () {},
                         ),
                         SeassionCard(
+                          //session4
                           seassionNum: 4,
                           press: () {},
                         ),
                         SeassionCard(
+                          //session5
                           seassionNum: 5,
                           press: () {},
                         ),
                         SeassionCard(
+                          //session6
                           seassionNum: 6,
                           press: () {},
                         ),
