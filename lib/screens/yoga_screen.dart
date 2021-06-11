@@ -4,7 +4,7 @@ import 'package:meditation_app/constants.dart';
 import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 import 'package:meditation_app/widgets/search_bar.dart';
 
-class DetailsScreen extends StatelessWidget {
+class YogaScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
@@ -33,9 +33,10 @@ class DetailsScreen extends StatelessWidget {
                       height: size.height * 0.05,
                     ),
                     Text(
-                      "Meditation",
+                      "Yoga",
                       style: Theme.of(context)
                           .textTheme
+                          // ignore: deprecated_member_use
                           .display1
                           .copyWith(fontWeight: FontWeight.w900),
                     ),
