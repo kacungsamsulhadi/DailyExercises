@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "490651264204",
+    "project_id": "flutteradm",
+    "storage_bucket": "flutteradm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490651264204:android:af2b206e956b5303804e69",
+        "android_client_info": {
+          "package_name": "com.flutter.adm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490651264204-604819r1fck91lm4r74mle80fr7fg5km.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flutter.adm",
+            "certificate_hash": "0ed10d97c06b0bb9b17ca5f6509fed8c0a9b4e06"
+          }
+        },
+        {
+          "client_id": "490651264204-3bvvakel8a2hid6klr5oqvor671qshh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM9cWQ3n6srxgUv62dQVrjaLgRPuVTvJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490651264204-3bvvakel8a2hid6klr5oqvor671qshh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2516611550012730~4351274326"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490651264204:android:4449b1798c512559804e69",
+        "android_client_info": {
+          "package_name": "com.polinema.dailyexercises"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490651264204-4p0fsu766q7bsd2mdqg8po6s9u474c0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.polinema.dailyexercises",
+            "certificate_hash": "0ed10d97c06b0bb9b17ca5f6509fed8c0a9b4e06"
+          }
+        },
+        {
+          "client_id": "490651264204-3bvvakel8a2hid6klr5oqvor671qshh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM9cWQ3n6srxgUv62dQVrjaLgRPuVTvJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490651264204-3bvvakel8a2hid6klr5oqvor671qshh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490651264204:android:9c1a8c664036a66a804e69",
+        "android_client_info": {
+          "package_name": "com.polinema.uaspmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490651264204-ieo53spsllu7qu9f2i213r3onh3k29sr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.polinema.uaspmobile",
+            "certificate_hash": "0ed10d97c06b0bb9b17ca5f6509fed8c0a9b4e06"
+          }
+        },
+        {
+          "client_id": "490651264204-3bvvakel8a2hid6klr5oqvor671qshh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM9cWQ3n6srxgUv62dQVrjaLgRPuVTvJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490651264204-3bvvakel8a2hid6klr5oqvor671qshh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
