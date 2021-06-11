@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
 import 'package:meditation_app/widgets/bottom_nav_bar.dart';
-import 'package:meditation_app/widgets/search_bar.dart';
 
 class DietRecomendation extends StatelessWidget {
   @override
@@ -54,7 +53,6 @@ class DietRecomendation extends StatelessWidget {
                     ),
                     SizedBox(
                       width: size.width * .5, // it just take the 50% width
-                      child: SearchBar(),
                     ),
                     Wrap(
                       spacing: 20,
