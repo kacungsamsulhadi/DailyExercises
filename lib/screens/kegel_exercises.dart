@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
+import 'package:meditation_app/subScreenKegel/session1.dart';
+import 'package:meditation_app/subScreenKegel/session2.dart';
+import 'package:meditation_app/subScreenKegel/session3.dart';
+import 'package:meditation_app/subScreenKegel/session4.dart';
 import 'package:meditation_app/widgets/bottom_nav_bar.dart';
+//import 'package:meditation_app/widgets/search_bar.dart';
 
 class KegelExercises extends StatelessWidget {
   @override
@@ -16,7 +21,7 @@ class KegelExercises extends StatelessWidget {
             decoration: BoxDecoration(
               color: kBlueLightColor,
               image: DecorationImage(
-                image: AssetImage("assets/images/meditation_bg.png"),
+                image: AssetImage("assets/images/exercises_bg.png"),
                 fit: BoxFit.fitWidth,
               ),
             ),
@@ -32,7 +37,7 @@ class KegelExercises extends StatelessWidget {
                       height: size.height * 0.05,
                     ),
                     Text(
-                      "Kegel \nExercises",
+                      "Kegel Practice",
                       style: Theme.of(context)
                           .textTheme
                           // ignore: deprecated_member_use
@@ -41,18 +46,20 @@ class KegelExercises extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      "3-10 MIN Course",
-                      style: TextStyle(fontWeight: FontWeight.bold),
+                      "10 Minutes, 12 Course",
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                     ),
                     SizedBox(height: 10),
                     SizedBox(
                       width: size.width * .6, // it just take 60% of total width
                       child: Text(
-                        "Live happier and healthier by learning the fundamentals of meditation and mindfulness",
+                        "Senam Kegel bermanfaat untuk memperbaiki kondisi yang dapat menurunkan fungsi dan kekuatan otot panggul bawah. \n",
+                        style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 15,
+                            fontWeight: FontWeight.bold),
                       ),
-                    ),
-                    SizedBox(
-                      width: size.width * .5, // it just take the 50% width
                     ),
                     Wrap(
                       spacing: 20,
@@ -62,22 +69,50 @@ class KegelExercises extends StatelessWidget {
                           //session1
                           seassionNum: 1,
                           isDone: true,
-                          press: () {},
+                          press: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) {
+                                return MengecilkanPerut();
+                              }),
+                            );
+                          },
                         ),
                         SeassionCard(
                           //session2
                           seassionNum: 2,
-                          press: () {},
+                          press: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) {
+                                return Wasir();
+                              }),
+                            );
+                          },
                         ),
                         SeassionCard(
                           //session3
                           seassionNum: 3,
-                          press: () {},
+                          press: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) {
+                                return Hamil();
+                              }),
+                            );
+                          },
                         ),
                         SeassionCard(
                           //session4
                           seassionNum: 4,
-                          press: () {},
+                          press: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) {
+                                return MerapatkanMissV();
+                              }),
+                            );
+                          },
                         ),
                         SeassionCard(
                           //session5
@@ -93,9 +128,10 @@ class KegelExercises extends StatelessWidget {
                     ),
                     SizedBox(height: 20),
                     Text(
-                      "Meditation",
+                      "Diet Recomendation",
                       style: Theme.of(context)
                           .textTheme
+                          // ignore: deprecated_member_use
                           .title
                           .copyWith(fontWeight: FontWeight.bold),
                     ),
@@ -128,6 +164,50 @@ class KegelExercises extends StatelessWidget {
                               children: <Widget>[
                                 Text(
                                   "Basic 2",
+                                  // ignore: deprecated_member_use
+                                  style: Theme.of(context).textTheme.subtitle,
+                                ),
+                                Text("Start your deepen you practice")
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.all(10),
+                            child: SvgPicture.asset("assets/icons/Lock.svg"),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 20),
+                      padding: EdgeInsets.all(10),
+                      height: 90,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(13),
+                        boxShadow: [
+                          BoxShadow(
+                            offset: Offset(0, 17),
+                            blurRadius: 23,
+                            spreadRadius: -13,
+                            color: kShadowColor,
+                          ),
+                        ],
+                      ),
+                      child: Row(
+                        children: <Widget>[
+                          SvgPicture.asset(
+                            "assets/icons/Meditation_women_small.svg",
+                          ),
+                          SizedBox(width: 20),
+                          Expanded(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Text(
+                                  "Basic 3",
+                                  // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
                                 Text("Start your deepen you practice")
@@ -208,6 +288,7 @@ class SeassionCard extends StatelessWidget {
                     SizedBox(width: 10),
                     Text(
                       "Session $seassionNum",
+                      // ignore: deprecated_member_use
                       style: Theme.of(context).textTheme.subtitle,
                     )
                   ],
