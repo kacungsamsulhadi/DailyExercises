@@ -141,7 +141,7 @@ class KegelExercises extends StatelessWidget {
                       child: Row(
                         children: <Widget>[
                           SvgPicture.asset(
-                            "assets/icons/Meditation_women_small.svg",
+                            "assets/icons/Excrecises.svg",
                           ),
                           SizedBox(width: 20),
                           Expanded(
@@ -184,7 +184,7 @@ class KegelExercises extends StatelessWidget {
                       child: Row(
                         children: <Widget>[
                           SvgPicture.asset(
-                            "assets/icons/Meditation_women_small.svg",
+                            "assets/icons/Excrecises.svg",
                           ),
                           SizedBox(width: 20),
                           Expanded(

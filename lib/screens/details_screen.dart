@@ -5,14 +5,12 @@ import 'package:meditation_app/subScreenMaditation/session1.dart';
 import 'package:meditation_app/subScreenMaditation/session2.dart';
 import 'package:meditation_app/subScreenMaditation/session3.dart';
 import 'package:meditation_app/subScreenMaditation/session4.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class DetailsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -145,6 +143,48 @@ class DetailsScreen extends StatelessWidget {
                               children: <Widget>[
                                 Text(
                                   "Basic 2",
+                                  style: Theme.of(context).textTheme.subtitle,
+                                ),
+                                Text("Start your deepen you practice")
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.all(10),
+                            child: SvgPicture.asset("assets/icons/Lock.svg"),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 20),
+                      padding: EdgeInsets.all(10),
+                      height: 90,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(13),
+                        boxShadow: [
+                          BoxShadow(
+                            offset: Offset(0, 17),
+                            blurRadius: 23,
+                            spreadRadius: -13,
+                            color: kShadowColor,
+                          ),
+                        ],
+                      ),
+                      child: Row(
+                        children: <Widget>[
+                          SvgPicture.asset(
+                            "assets/icons/Meditation_women_small.svg",
+                          ),
+                          SizedBox(width: 20),
+                          Expanded(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Text(
+                                  "Basic 3",
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
                                 Text("Start your deepen you practice")
