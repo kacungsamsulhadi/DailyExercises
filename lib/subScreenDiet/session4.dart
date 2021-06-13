@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class DietMediterani extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -56,8 +54,10 @@ class DietMediterani extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan Diet Mediterania yang aman dan efektif, di antaranya sebagai berikut:",style:
-                          TextStyle(fontSize: 15),),
+                    Text(
+                      "cara melakukan Diet Mediterania yang aman dan efektif, di antaranya sebagai berikut:",
+                      style: TextStyle(fontSize: 15),
+                    ),
                     SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
@@ -77,7 +77,6 @@ class DietMediterani extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -89,7 +88,8 @@ class DietMediterani extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Dalam diet Mediterania, asupan sayur dan buah yang perlu dikonsumsi adalah sekitar 5-8 porsi per hari. Satu porsi buah dan sayuran setara dengan setengah piring setiap kali makan.")
+                                Text(
+                                    "Dalam diet Mediterania, asupan sayur dan buah yang perlu dikonsumsi adalah sekitar 5-8 porsi per hari. Satu porsi buah dan sayuran setara dengan setengah piring setiap kali makan.")
                               ],
                             ),
                           ),
@@ -114,7 +114,6 @@ class DietMediterani extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -126,7 +125,8 @@ class DietMediterani extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Orang yang menjalani diet Mediterania perlu mengurangi asupan lemak tidak sehat, seperti lemak trans dan lemak jenuh. Sebagai pengganti minyak goreng, margarin, atau minyak masak lainnya, gunakanlah minyak zaitun.")
+                                Text(
+                                    "Orang yang menjalani diet Mediterania perlu mengurangi asupan lemak tidak sehat, seperti lemak trans dan lemak jenuh. Sebagai pengganti minyak goreng, margarin, atau minyak masak lainnya, gunakanlah minyak zaitun.")
                               ],
                             ),
                           ),
@@ -151,7 +151,6 @@ class DietMediterani extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,7 +162,8 @@ class DietMediterani extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Salah satu himbauan dalam diet Mediterania adalah konsumsi protein. Asupan protein ini bisa diperoleh dengan mengonsumsi ikan dua kali dalam seminggu. Namun ingat, masaklah ikan dengan cara dibakar, dikukus, atau direbus, bukan digoreng.")
+                                Text(
+                                    "Salah satu himbauan dalam diet Mediterania adalah konsumsi protein. Asupan protein ini bisa diperoleh dengan mengonsumsi ikan dua kali dalam seminggu. Namun ingat, masaklah ikan dengan cara dibakar, dikukus, atau direbus, bukan digoreng.")
                               ],
                             ),
                           ),
@@ -188,7 +188,6 @@ class DietMediterani extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -200,7 +199,8 @@ class DietMediterani extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Dalam diet Mediterania, Anda juga boleh mengonsumsi makanan ringan. Akan tetapi, pilihan camilan yang disarankan adalah buah kering atau buah-buahan segar, serta kacang-kacangan yang diolah tanpa tambahan garam.")
+                                Text(
+                                    "Dalam diet Mediterania, Anda juga boleh mengonsumsi makanan ringan. Akan tetapi, pilihan camilan yang disarankan adalah buah kering atau buah-buahan segar, serta kacang-kacangan yang diolah tanpa tambahan garam.")
                               ],
                             ),
                           ),

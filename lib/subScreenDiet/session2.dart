@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class DietVegan extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -56,8 +54,10 @@ class DietVegan extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan diet vegan yang aman dan efektif, di antaranya sebagai berikut:",style:
-                          TextStyle(fontSize: 15),),
+                    Text(
+                      "cara melakukan diet vegan yang aman dan efektif, di antaranya sebagai berikut:",
+                      style: TextStyle(fontSize: 15),
+                    ),
                     SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
@@ -77,7 +77,6 @@ class DietVegan extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -89,7 +88,8 @@ class DietVegan extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Makanan enak tidak melulu hidangan daging, karena hidangan nabati juga punya cita rasa yang lezat jika diolah dengan benar. Sebagai vegan, Anda harus terbiasa untuk menjadikan sayur-sayuran sebagai menu utama makanan. Pilih sayuran yang dapat menjaga kalori Anda dan kaya akan serat.")
+                                Text(
+                                    "Makanan enak tidak melulu hidangan daging, karena hidangan nabati juga punya cita rasa yang lezat jika diolah dengan benar. Sebagai vegan, Anda harus terbiasa untuk menjadikan sayur-sayuran sebagai menu utama makanan. Pilih sayuran yang dapat menjaga kalori Anda dan kaya akan serat.")
                               ],
                             ),
                           ),
@@ -114,7 +114,6 @@ class DietVegan extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -126,7 +125,8 @@ class DietVegan extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Meski hanya boleh memakan makanan vegetarian, tetapi Anda tetap harus memperhatikan keseimbangan makanan sebagaimana makanan sehat yang ideal. Kalau bisa, di dalam satu hidangan terdapat banyak warna sayur dan buah.")
+                                Text(
+                                    "Meski hanya boleh memakan makanan vegetarian, tetapi Anda tetap harus memperhatikan keseimbangan makanan sebagaimana makanan sehat yang ideal. Kalau bisa, di dalam satu hidangan terdapat banyak warna sayur dan buah.")
                               ],
                             ),
                           ),
@@ -151,7 +151,6 @@ class DietVegan extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,7 +162,8 @@ class DietVegan extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Protein hewani seperti daging dan ayam merupakan sumber zat besi terbaik. Seorang began masih bisa memperoleh mineral ini dari sayuran hijau dan kacang-kacangan. Namun, zat besi dari sumber nabati tidak mudah diserap. Untuk itu, Anda dapat mengonsumsi makanan bervitamin C untuk membantu meningkatkan penyerapan.")
+                                Text(
+                                    "Protein hewani seperti daging dan ayam merupakan sumber zat besi terbaik. Seorang began masih bisa memperoleh mineral ini dari sayuran hijau dan kacang-kacangan. Namun, zat besi dari sumber nabati tidak mudah diserap. Untuk itu, Anda dapat mengonsumsi makanan bervitamin C untuk membantu meningkatkan penyerapan.")
                               ],
                             ),
                           ),
@@ -188,7 +188,6 @@ class DietVegan extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -200,7 +199,8 @@ class DietVegan extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Vitamin B12 adalah vitamin yang memiliki fungsi penting untuk mengubah makanan menjadi energi yang nantinya akan membantu fungsi otak. Jenis vitamin B12 paling banyak ditemukan pada makanan hewani, seperti daging, ikan, unggas, telur, dan olahan susu.")
+                                Text(
+                                    "Vitamin B12 adalah vitamin yang memiliki fungsi penting untuk mengubah makanan menjadi energi yang nantinya akan membantu fungsi otak. Jenis vitamin B12 paling banyak ditemukan pada makanan hewani, seperti daging, ikan, unggas, telur, dan olahan susu.")
                               ],
                             ),
                           ),

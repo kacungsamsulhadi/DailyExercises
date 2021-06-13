@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class DietVegetarian extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -56,8 +54,10 @@ class DietVegetarian extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan Diet VEgetarian yang aman dan efektif, di antaranya sebagai berikut:",style:
-                          TextStyle(fontSize: 15),),
+                    Text(
+                      "cara melakukan Diet VEgetarian yang aman dan efektif, di antaranya sebagai berikut:",
+                      style: TextStyle(fontSize: 15),
+                    ),
                     SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
@@ -77,7 +77,6 @@ class DietVegetarian extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -89,7 +88,8 @@ class DietVegetarian extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Bangun tidur dan perut masih dalam keadaan kosong, mulailah di pagi hari dengan meminum madu dan air lemon. Minuman ini sangat efektif sebagai detoks dalam menyingkirkan racun dalam tubuh.")
+                                Text(
+                                    "Bangun tidur dan perut masih dalam keadaan kosong, mulailah di pagi hari dengan meminum madu dan air lemon. Minuman ini sangat efektif sebagai detoks dalam menyingkirkan racun dalam tubuh.")
                               ],
                             ),
                           ),
@@ -114,7 +114,6 @@ class DietVegetarian extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -126,7 +125,8 @@ class DietVegetarian extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Jika pada menu sarapan terdapat telur mata sapi atau telur rebus, hindari kuningnya karena banyak mengandung lemak. Ganti kuning telur dengan jamur, paprika, bayam, atau bawang.")
+                                Text(
+                                    "Jika pada menu sarapan terdapat telur mata sapi atau telur rebus, hindari kuningnya karena banyak mengandung lemak. Ganti kuning telur dengan jamur, paprika, bayam, atau bawang.")
                               ],
                             ),
                           ),
@@ -151,7 +151,6 @@ class DietVegetarian extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,7 +162,8 @@ class DietVegetarian extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Kurangi porsi makan siang yang mengandung karbohidrat tinggi seperti nasi atau mie. Gantikan makanan-makanan tersebut dengan sayuran segar seperti tomat, daun selada, dan timun. ")
+                                Text(
+                                    "Kurangi porsi makan siang yang mengandung karbohidrat tinggi seperti nasi atau mie. Gantikan makanan-makanan tersebut dengan sayuran segar seperti tomat, daun selada, dan timun. ")
                               ],
                             ),
                           ),
@@ -188,7 +188,6 @@ class DietVegetarian extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -200,7 +199,8 @@ class DietVegetarian extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Untuk makan malam, ada baiknya menggunakan menu Sup bening yang terdiri dari wortel, brokoli, jamur, dan jagung.")
+                                Text(
+                                    "Untuk makan malam, ada baiknya menggunakan menu Sup bening yang terdiri dari wortel, brokoli, jamur, dan jagung.")
                               ],
                             ),
                           ),

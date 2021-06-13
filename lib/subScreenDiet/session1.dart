@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class IntermittentFasting extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -56,8 +54,10 @@ class IntermittentFasting extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan intermittent fasting yang aman dan efektif, di antaranya sebagai berikut:",style:
-                          TextStyle(fontSize: 15),),
+                    Text(
+                      "cara melakukan intermittent fasting yang aman dan efektif, di antaranya sebagai berikut:",
+                      style: TextStyle(fontSize: 15),
+                    ),
                     SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
@@ -77,7 +77,6 @@ class IntermittentFasting extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -89,7 +88,8 @@ class IntermittentFasting extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Berpuasa selama 16 jam sehari dengan waktu makan 8 jam atau biasa disebut dengan metode 16:8. Selama diet, wanita bisa berpuasa selama 14 jam setiap hari, sedangkan pria berpuasa selama 16 jam.")
+                                Text(
+                                    "Berpuasa selama 16 jam sehari dengan waktu makan 8 jam atau biasa disebut dengan metode 16:8. Selama diet, wanita bisa berpuasa selama 14 jam setiap hari, sedangkan pria berpuasa selama 16 jam.")
                               ],
                             ),
                           ),
@@ -114,7 +114,6 @@ class IntermittentFasting extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -126,7 +125,8 @@ class IntermittentFasting extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Metode puasa dua hari dalam seminggu atau diet 5:2, menyediakan lima hari dalam seminggu untuk makan normal seperti biasa. Sisanya, Anda harus berpuasa dan membatasi 500-600 kalori saja untuk dikonsumsi selama dua hari itu.")
+                                Text(
+                                    "Metode puasa dua hari dalam seminggu atau diet 5:2, menyediakan lima hari dalam seminggu untuk makan normal seperti biasa. Sisanya, Anda harus berpuasa dan membatasi 500-600 kalori saja untuk dikonsumsi selama dua hari itu.")
                               ],
                             ),
                           ),
@@ -151,7 +151,6 @@ class IntermittentFasting extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,7 +162,8 @@ class IntermittentFasting extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Puasa selang-seling atau dalam Islam disebut dengan puasa Daud, dianggap efektif untuk menurunkan berat badan. Metode ini menyatakan bahwa seseorang hanya diperbolehkan makan sebanyak 25 persen dari konsumsi normal kalori hariannya. Meski begitu, ada juga yang menyatakan bahwa membolehkan 500 kalori saja per harinya.")
+                                Text(
+                                    "Puasa selang-seling atau dalam Islam disebut dengan puasa Daud, dianggap efektif untuk menurunkan berat badan. Metode ini menyatakan bahwa seseorang hanya diperbolehkan makan sebanyak 25 persen dari konsumsi normal kalori hariannya. Meski begitu, ada juga yang menyatakan bahwa membolehkan 500 kalori saja per harinya.")
                               ],
                             ),
                           ),
@@ -188,7 +188,6 @@ class IntermittentFasting extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -200,7 +199,8 @@ class IntermittentFasting extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Metode intermittent fasting selanjutnya, yaitu puasa selama 14 jam sehari.  Biasanya, cara ini dilakukan oleh para pemula yang ingin melakukan intermitten fasting. Puasa selama 10-16 jam dapat membuat tubuh mengubah cadangan lemaknya menjadi energi dan melepaskan keton ke dalam aliran darah.")
+                                Text(
+                                    "Metode intermittent fasting selanjutnya, yaitu puasa selama 14 jam sehari.  Biasanya, cara ini dilakukan oleh para pemula yang ingin melakukan intermitten fasting. Puasa selama 10-16 jam dapat membuat tubuh mengubah cadangan lemaknya menjadi energi dan melepaskan keton ke dalam aliran darah.")
                               ],
                             ),
                           ),
