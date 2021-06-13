@@ -5,15 +5,12 @@ import 'package:meditation_app/subScreenYoga/session1.dart';
 import 'package:meditation_app/subScreenYoga/session2.dart';
 import 'package:meditation_app/subScreenYoga/session3.dart';
 import 'package:meditation_app/subScreenYoga/session4.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
-//import 'package:meditation_app/widgets/search_bar.dart';
 
 class YogaScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -43,12 +40,6 @@ class YogaScreen extends StatelessWidget {
                           // ignore: deprecated_member_use
                           .display1
                           .copyWith(fontWeight: FontWeight.w900),
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      "10 Minutes, 12 Course",
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                     ),
                     SizedBox(height: 10),
                     SizedBox(
@@ -114,21 +105,11 @@ class YogaScreen extends StatelessWidget {
                             );
                           },
                         ),
-                        SeassionCard(
-                          //session5
-                          seassionNum: 5,
-                          press: () {},
-                        ),
-                        SeassionCard(
-                          //session6
-                          seassionNum: 6,
-                          press: () {},
-                        ),
                       ],
                     ),
                     SizedBox(height: 20),
                     Text(
-                      "Diet Recomendation",
+                      "Yoga Practice",
                       style: Theme.of(context)
                           .textTheme
                           // ignore: deprecated_member_use
@@ -154,7 +135,7 @@ class YogaScreen extends StatelessWidget {
                       child: Row(
                         children: <Widget>[
                           SvgPicture.asset(
-                            "assets/icons/Meditation_women_small.svg",
+                            "assets/icons/yoga.svg",
                           ),
                           SizedBox(width: 20),
                           Expanded(
@@ -197,7 +178,7 @@ class YogaScreen extends StatelessWidget {
                       child: Row(
                         children: <Widget>[
                           SvgPicture.asset(
-                            "assets/icons/Meditation_women_small.svg",
+                            "assets/icons/yoga.svg",
                           ),
                           SizedBox(width: 20),
                           Expanded(

@@ -1,10 +1,9 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/screens/diet_recomendation.dart';
 import 'package:meditation_app/screens/kegel_exercises.dart';
 import 'package:meditation_app/screens/yoga_screen.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
+//import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 import 'package:meditation_app/widgets/category_card.dart';
 
 import 'details_screen.dart';
@@ -12,17 +11,13 @@ import 'details_screen.dart';
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    future:
-    Firebase.initializeApp();
-    var size = MediaQuery.of(context)
-        .size; //this gonna give us total height and with of our device
+    var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
+      //bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
-            // Here the height of the container is 45% of our total height
-            height: size.height * .45,
+            height: size.height * .55,
             decoration: BoxDecoration(
               color: Color(0xFFF5CEB8),
               image: DecorationImage(

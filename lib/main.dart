@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:meditation_app/constants.dart';
 import 'package:meditation_app/screens/authScreens/login.dart';
 
-import 'screens/home_screen.dart';
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();

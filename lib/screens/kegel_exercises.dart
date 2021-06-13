@@ -5,15 +5,12 @@ import 'package:meditation_app/subScreenKegel/session1.dart';
 import 'package:meditation_app/subScreenKegel/session2.dart';
 import 'package:meditation_app/subScreenKegel/session3.dart';
 import 'package:meditation_app/subScreenKegel/session4.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
-//import 'package:meditation_app/widgets/search_bar.dart';
 
 class KegelExercises extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -113,16 +110,6 @@ class KegelExercises extends StatelessWidget {
                               }),
                             );
                           },
-                        ),
-                        SeassionCard(
-                          //session5
-                          seassionNum: 5,
-                          press: () {},
-                        ),
-                        SeassionCard(
-                          //session6
-                          seassionNum: 6,
-                          press: () {},
                         ),
                       ],
                     ),

@@ -5,15 +5,12 @@ import 'package:meditation_app/subScreenMaditation/session1.dart';
 import 'package:meditation_app/subScreenMaditation/session2.dart';
 import 'package:meditation_app/subScreenMaditation/session3.dart';
 import 'package:meditation_app/subScreenMaditation/session4.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
-//import 'package:meditation_app/widgets/search_bar.dart';
 
 class DetailScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(

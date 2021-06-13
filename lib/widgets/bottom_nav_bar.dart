@@ -14,16 +14,12 @@ class BottomNavBar extends StatelessWidget {
       height: 80,
       color: Colors.white,
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
-          BottomNavItem(
-            title: "Today",
-            svgScr: "assets/icons/calendar.svg",
-          ),
           BottomNavItem(
             title: "All Exercises",
             svgScr: "assets/icons/gym.svg",
-            isActive: true,
+            //isActive: true,
           ),
           BottomNavItem(
             title: "Settings",
@@ -51,7 +47,7 @@ class BottomNavItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: press,
+      onTap: () {},
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
@@ -61,7 +57,7 @@ class BottomNavItem extends StatelessWidget {
           ),
           Text(
             title,
-            style: TextStyle(color: isActive ? kActiveIconColor : kTextColor),
+            //style: TextStyle(color: isActive ? kActiveIconColor : kTextColor),
           ),
         ],
       ),

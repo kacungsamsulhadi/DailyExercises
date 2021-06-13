@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
+import 'package:meditation_app/subScreenMaditation/session1.dart';
+import 'package:meditation_app/subScreenMaditation/session2.dart';
+import 'package:meditation_app/subScreenMaditation/session3.dart';
+import 'package:meditation_app/subScreenMaditation/session4.dart';
 import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class DetailsScreen extends StatelessWidget {
@@ -39,10 +43,6 @@ class DetailsScreen extends StatelessWidget {
                           .copyWith(fontWeight: FontWeight.w900),
                     ),
                     SizedBox(height: 10),
-                    Text(
-                      "3-10 MIN Course",
-                      style: TextStyle(fontWeight: FontWeight.bold),
-                    ),
                     SizedBox(height: 10),
                     SizedBox(
                       width: size.width * .6, // it just take 60% of total width
@@ -61,32 +61,50 @@ class DetailsScreen extends StatelessWidget {
                           //session1
                           seassionNum: 1,
                           isDone: true,
-                          press: () {},
+                          press: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) {
+                                return MeditasiVipassana();
+                              }),
+                            );
+                          },
                         ),
                         SeassionCard(
                           //session2
                           seassionNum: 2,
-                          press: () {},
+                          press: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) {
+                                return MeditasiChakra();
+                              }),
+                            );
+                          },
                         ),
                         SeassionCard(
                           //session3
                           seassionNum: 3,
-                          press: () {},
+                          press: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) {
+                                return MeditasiTonglen();
+                              }),
+                            );
+                          },
                         ),
                         SeassionCard(
                           //session4
                           seassionNum: 4,
-                          press: () {},
-                        ),
-                        SeassionCard(
-                          //session5
-                          seassionNum: 5,
-                          press: () {},
-                        ),
-                        SeassionCard(
-                          //session6
-                          seassionNum: 6,
-                          press: () {},
+                          press: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) {
+                                return MeditasiZazen();
+                              }),
+                            );
+                          },
                         ),
                       ],
                     ),
