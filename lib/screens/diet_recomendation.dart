@@ -14,7 +14,7 @@ class DietRecomendation extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Container(
-            height: size.height * .28,
+            height: size.height * .58,
             decoration: BoxDecoration(
               color: kBlueLightColor,
               image: DecorationImage(

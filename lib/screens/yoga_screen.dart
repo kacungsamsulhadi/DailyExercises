@@ -14,7 +14,7 @@ class YogaScreen extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Container(
-            height: size.height * .45,
+            height: size.height * .55,
             decoration: BoxDecoration(
               color: kBlueLightColor,
               image: DecorationImage(

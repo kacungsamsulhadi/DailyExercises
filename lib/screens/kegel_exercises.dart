@@ -14,7 +14,7 @@ class KegelExercises extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Container(
-            height: size.height * .45,
+            height: size.height * .60,
             decoration: BoxDecoration(
               color: kBlueLightColor,
               image: DecorationImage(
