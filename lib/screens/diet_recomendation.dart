@@ -5,15 +5,12 @@ import 'package:meditation_app/subScreenDiet/session1.dart';
 import 'package:meditation_app/subScreenDiet/session2.dart';
 import 'package:meditation_app/subScreenDiet/session3.dart';
 import 'package:meditation_app/subScreenDiet/session4.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
-//import 'package:meditation_app/widgets/search_bar.dart';
 
 class DietRecomendation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -94,7 +91,7 @@ class DietRecomendation extends StatelessWidget {
                                 return DietVegetarian();
                               }),
                             );
-                            },
+                          },
                         ),
                         SeassionCard(
                           //session4
@@ -108,16 +105,6 @@ class DietRecomendation extends StatelessWidget {
                             );
                           },
                         ),
-                        SeassionCard(
-                          //session5
-                          seassionNum: 5,
-                          press: () {},
-                        ),
-                        SeassionCard(
-                          //session6
-                          seassionNum: 6,
-                          press: () {},
-                        ),
                       ],
                     ),
                     SizedBox(height: 20),
@@ -128,6 +115,90 @@ class DietRecomendation extends StatelessWidget {
                           // ignore: deprecated_member_use
                           .title
                           .copyWith(fontWeight: FontWeight.bold),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 20),
+                      padding: EdgeInsets.all(10),
+                      height: 90,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(13),
+                        boxShadow: [
+                          BoxShadow(
+                            offset: Offset(0, 17),
+                            blurRadius: 23,
+                            spreadRadius: -13,
+                            color: kShadowColor,
+                          ),
+                        ],
+                      ),
+                      child: Row(
+                        children: <Widget>[
+                          SvgPicture.asset(
+                            "assets/icons/Hamburger.svg",
+                          ),
+                          SizedBox(width: 20),
+                          Expanded(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Text(
+                                  "Basic 2",
+                                  style: Theme.of(context).textTheme.subtitle,
+                                ),
+                                Text("Start your deepen you practice")
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.all(10),
+                            child: SvgPicture.asset("assets/icons/Lock.svg"),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 10),
+                      padding: EdgeInsets.all(10),
+                      height: 90,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(13),
+                        boxShadow: [
+                          BoxShadow(
+                            offset: Offset(0, 17),
+                            blurRadius: 23,
+                            spreadRadius: -13,
+                            color: kShadowColor,
+                          ),
+                        ],
+                      ),
+                      child: Row(
+                        children: <Widget>[
+                          SvgPicture.asset(
+                            "assets/icons/Hamburger.svg",
+                          ),
+                          SizedBox(width: 20),
+                          Expanded(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Text(
+                                  "Basic 3",
+                                  style: Theme.of(context).textTheme.subtitle,
+                                ),
+                                Text("Start your deepen you practice")
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.all(10),
+                            child: SvgPicture.asset("assets/icons/Lock.svg"),
+                          ),
+                        ],
+                      ),
                     ),
                   ],
                 ),
