@@ -1,7 +1,7 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:meditation_app/screens/home_screen.dart';
-//import 'package:meditation_app/widgets/calculate.dart';
+import 'package:meditation_app/widgets/calculate.dart';
 
 class Navbar extends StatelessWidget {
   const Navbar({
@@ -43,7 +43,7 @@ class Navbar extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(builder: (context) {
-              //return CalculateScreen();
+              return CalculateScreen();
             }),
           );
         } else {}

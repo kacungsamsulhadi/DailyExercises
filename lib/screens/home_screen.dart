@@ -3,6 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/screens/diet_recomendation.dart';
 import 'package:meditation_app/screens/kegel_exercises.dart';
 import 'package:meditation_app/screens/yoga_screen.dart';
+import 'package:meditation_app/widgets/bottom_navbar.dart';
 //import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 import 'package:meditation_app/widgets/category_card.dart';
 
@@ -125,6 +126,7 @@ class HomeScreen extends StatelessWidget {
           )
         ],
       ),
+      bottomNavigationBar: Navbar(),
     );
   }
 }
