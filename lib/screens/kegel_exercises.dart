@@ -42,12 +42,6 @@ class KegelExercises extends StatelessWidget {
                           .copyWith(fontWeight: FontWeight.w900),
                     ),
                     SizedBox(height: 10),
-                    Text(
-                      "10 Minutes, 12 Course",
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
-                    ),
-                    SizedBox(height: 10),
                     SizedBox(
                       width: size.width * .6, // it just take 60% of total width
                       child: Text(
