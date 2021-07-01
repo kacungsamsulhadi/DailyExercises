@@ -59,7 +59,7 @@ class YogaScreen extends StatelessWidget {
                         SeassionCard(
                           //session1
                           seassionNum: 1,
-                          isDone: true,
+                          //isDone: true,
                           press: () {
                             Navigator.push(
                               context,
