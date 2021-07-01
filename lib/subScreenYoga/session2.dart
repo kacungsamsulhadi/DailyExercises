@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class VinyasaYoga extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -56,8 +54,10 @@ class VinyasaYoga extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan Yoga yang aman dan efektif, di antaranya sebagai berikut:",style:
-                          TextStyle(fontSize: 15),),
+                    Text(
+                      "cara melakukan Yoga yang aman dan efektif, di antaranya sebagai berikut:",
+                      style: TextStyle(fontSize: 15),
+                    ),
                     SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
@@ -77,7 +77,6 @@ class VinyasaYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -89,7 +88,8 @@ class VinyasaYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Mulailah dengan posisi plank di mana telapak tangan dan jari-jari kaki menempel pada matras untuk menopang tubuh. Pastikan juga kedua lengan lurus, dan pinggul sejajar dengan bahu hingga membentuk garis lurus dari kepala hingga kaki.")
+                                Text(
+                                    "Mulailah dengan posisi plank di mana telapak tangan dan jari-jari kaki menempel pada matras untuk menopang tubuh. Pastikan juga kedua lengan lurus, dan pinggul sejajar dengan bahu hingga membentuk garis lurus dari kepala hingga kaki.")
                               ],
                             ),
                           ),
@@ -114,7 +114,6 @@ class VinyasaYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -126,7 +125,8 @@ class VinyasaYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Hembuskan napas untuk menurunkan lutut, dada, dan dagu ke matras. Jangan sampai bokong Anda turun, dan siku harus menekuk lurus ke belakang di sisi tubuh. Pose ini baik untuk tulang punggung dan memperkuat lengan Anda.")
+                                Text(
+                                    "Hembuskan napas untuk menurunkan lutut, dada, dan dagu ke matras. Jangan sampai bokong Anda turun, dan siku harus menekuk lurus ke belakang di sisi tubuh. Pose ini baik untuk tulang punggung dan memperkuat lengan Anda.")
                               ],
                             ),
                           ),
@@ -151,7 +151,6 @@ class VinyasaYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,7 +162,8 @@ class VinyasaYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Tarik napas dan ubah menjadi posisi cobra di mana tangan tetap pada posisi sebelumnya. Namun, turunkan pinggul dan bokong ke matras sehingga dada terangkat.")
+                                Text(
+                                    "Tarik napas dan ubah menjadi posisi cobra di mana tangan tetap pada posisi sebelumnya. Namun, turunkan pinggul dan bokong ke matras sehingga dada terangkat.")
                               ],
                             ),
                           ),
@@ -188,7 +188,6 @@ class VinyasaYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -200,7 +199,8 @@ class VinyasaYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Hembuskan napas dan angkat tubuh Anda di mana bokong berada dalam posisi yang paling tinggi. Bertumpulah pada telapak tangan dan telapak kaki yang menempel pada matras.")
+                                Text(
+                                    "Hembuskan napas dan angkat tubuh Anda di mana bokong berada dalam posisi yang paling tinggi. Bertumpulah pada telapak tangan dan telapak kaki yang menempel pada matras.")
                               ],
                             ),
                           ),

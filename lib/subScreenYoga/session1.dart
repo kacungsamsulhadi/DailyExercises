@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class HathaYoga extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -56,8 +54,10 @@ class HathaYoga extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan Yoga yang aman dan efektif, di antaranya sebagai berikut:",style:
-                          TextStyle(fontSize: 15),),
+                    Text(
+                      "cara melakukan Yoga yang aman dan efektif, di antaranya sebagai berikut:",
+                      style: TextStyle(fontSize: 15),
+                    ),
                     SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
@@ -77,7 +77,6 @@ class HathaYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -89,7 +88,8 @@ class HathaYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Angkat kaki kanan menghadap ke atas hingga membentuk sudut 45 derajat. Kemudian, tangan kanan meraih bagian kaki kanan tersebut. Luruskan kaki kiri dan condongkan badan ke arah depan.")
+                                Text(
+                                    "Angkat kaki kanan menghadap ke atas hingga membentuk sudut 45 derajat. Kemudian, tangan kanan meraih bagian kaki kanan tersebut. Luruskan kaki kiri dan condongkan badan ke arah depan.")
                               ],
                             ),
                           ),
@@ -114,7 +114,6 @@ class HathaYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -126,7 +125,8 @@ class HathaYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Kemudian letakkan tangan di depan bahu dan luruskan kaki kamu. Angkat tulang bagian bokong ke atas lalu dorong tumit perlahan ke arah matras. Pastikan posisi kepala kamu rilis ya. Tahan gerakkan ini sekitar 1-3 menit.")
+                                Text(
+                                    "Kemudian letakkan tangan di depan bahu dan luruskan kaki kamu. Angkat tulang bagian bokong ke atas lalu dorong tumit perlahan ke arah matras. Pastikan posisi kepala kamu rilis ya. Tahan gerakkan ini sekitar 1-3 menit.")
                               ],
                             ),
                           ),
@@ -151,7 +151,6 @@ class HathaYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,7 +162,8 @@ class HathaYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text(" Gerakan ini disebut dengan Bhujangasana atau biasa dikenal dengan gerakan kobra. Gerakan ini bisa membuat perut jadi lebih kencang dan melenturkan otot tulang belakang.")
+                                Text(
+                                    " Gerakan ini disebut dengan Bhujangasana atau biasa dikenal dengan gerakan kobra. Gerakan ini bisa membuat perut jadi lebih kencang dan melenturkan otot tulang belakang.")
                               ],
                             ),
                           ),
@@ -188,7 +188,6 @@ class HathaYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -200,7 +199,8 @@ class HathaYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Arahkan jari kaki ke arah kanan dan jari kaki kiri ke depan. Rentangkan tangan di kedua sisi dengan telapak menghadap ke bawah. Jatuhkan tubuh kamu ke arah kanan hingga jari tangan kanan menyentuh jari kaki kanan atau lutut.")
+                                Text(
+                                    "Arahkan jari kaki ke arah kanan dan jari kaki kiri ke depan. Rentangkan tangan di kedua sisi dengan telapak menghadap ke bawah. Jatuhkan tubuh kamu ke arah kanan hingga jari tangan kanan menyentuh jari kaki kanan atau lutut.")
                               ],
                             ),
                           ),

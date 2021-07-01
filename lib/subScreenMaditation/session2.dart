@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class MeditasiZazen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -56,8 +54,10 @@ class MeditasiZazen extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan Meditasi yang aman dan efektif, di antaranya sebagai berikut:",style:
-                          TextStyle(fontSize: 15),),
+                    Text(
+                      "cara melakukan Meditasi yang aman dan efektif, di antaranya sebagai berikut:",
+                      style: TextStyle(fontSize: 15),
+                    ),
                     SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
@@ -77,7 +77,6 @@ class MeditasiZazen extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -89,7 +88,8 @@ class MeditasiZazen extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Perasaan ini dibentuk dalam diri kita semenjak kecil, tujuannya adalah untuk menjauhkan diri kita dari perilaku-perilaku yang dianggap tidak baik.")
+                                Text(
+                                    "Perasaan ini dibentuk dalam diri kita semenjak kecil, tujuannya adalah untuk menjauhkan diri kita dari perilaku-perilaku yang dianggap tidak baik.")
                               ],
                             ),
                           ),
@@ -114,7 +114,6 @@ class MeditasiZazen extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -126,7 +125,8 @@ class MeditasiZazen extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Latihan pernapasan tentu akan membuat kita menjadi rileks. Mungkin, pikiran Anda diliputi oleh kecemasan akan rencana-rencana di masa depan, rasa lelah dari kegiatan yang terlalu padat, dan kekhawatiran tentang hal-hal yang sebenarnya tidak perlu.")
+                                Text(
+                                    "Latihan pernapasan tentu akan membuat kita menjadi rileks. Mungkin, pikiran Anda diliputi oleh kecemasan akan rencana-rencana di masa depan, rasa lelah dari kegiatan yang terlalu padat, dan kekhawatiran tentang hal-hal yang sebenarnya tidak perlu.")
                               ],
                             ),
                           ),
@@ -151,7 +151,6 @@ class MeditasiZazen extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,7 +162,8 @@ class MeditasiZazen extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Seperti yang sudah dijelaskan di atas, manfaat dari meditasi adalah membantu mengendalikan arah pikiran, membuat Anda fokus. Hal ini juga dikuatkan oleh penelitian yang dipublikasikan di Psychological Science pada tahun 2010.")
+                                Text(
+                                    "Seperti yang sudah dijelaskan di atas, manfaat dari meditasi adalah membantu mengendalikan arah pikiran, membuat Anda fokus. Hal ini juga dikuatkan oleh penelitian yang dipublikasikan di Psychological Science pada tahun 2010.")
                               ],
                             ),
                           ),
@@ -188,7 +188,6 @@ class MeditasiZazen extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -200,7 +199,8 @@ class MeditasiZazen extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Penelitian yang dipublikasikan pada jurnal Psychosomatic Medicine pada 2011, yang dikutip Livescience, menemukan bahwa perempuan yang melakukan latihan meditasi dapat meningkatkan pengalaman seksualnya.")
+                                Text(
+                                    "Penelitian yang dipublikasikan pada jurnal Psychosomatic Medicine pada 2011, yang dikutip Livescience, menemukan bahwa perempuan yang melakukan latihan meditasi dapat meningkatkan pengalaman seksualnya.")
                               ],
                             ),
                           ),

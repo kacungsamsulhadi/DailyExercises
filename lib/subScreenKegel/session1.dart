@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class MengecilkanPerut extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -56,8 +54,10 @@ class MengecilkanPerut extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan kegel yang aman dan efektif, di antaranya sebagai berikut:",style:
-                          TextStyle(fontSize: 15),),
+                    Text(
+                      "cara melakukan kegel yang aman dan efektif, di antaranya sebagai berikut:",
+                      style: TextStyle(fontSize: 15),
+                    ),
                     SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
@@ -77,7 +77,6 @@ class MengecilkanPerut extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -89,7 +88,8 @@ class MengecilkanPerut extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Bersepeda merupakan olahraga ringan yang cukup mudah dilakukan. Banyak manfaat bersepeda yang perlu Anda ketahui. Salah satunya adalah menurunkan berat badan yang juga berkontribusi untuk mengecilkan perut.")
+                                Text(
+                                    "Bersepeda merupakan olahraga ringan yang cukup mudah dilakukan. Banyak manfaat bersepeda yang perlu Anda ketahui. Salah satunya adalah menurunkan berat badan yang juga berkontribusi untuk mengecilkan perut.")
                               ],
                             ),
                           ),
@@ -114,7 +114,6 @@ class MengecilkanPerut extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -126,7 +125,8 @@ class MengecilkanPerut extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Meski tidak secara langsung mengecilkan perut, tetapi berlari dapat mengurangi lemak tubuh dan membantu menurunkan berat badan.")
+                                Text(
+                                    "Meski tidak secara langsung mengecilkan perut, tetapi berlari dapat mengurangi lemak tubuh dan membantu menurunkan berat badan.")
                               ],
                             ),
                           ),
@@ -151,7 +151,6 @@ class MengecilkanPerut extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,7 +162,8 @@ class MengecilkanPerut extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Berenang tidak hanya mampu mengecilkan perut, namun juga meningkatkan kekuatan otot dan tulang, menjaga kesehatan jantung, serta meningkatkan kualitas tidur. Anda dianjurkan berenang selama 20-30 menit setidaknya 2-3 kali seminggu.")
+                                Text(
+                                    "Berenang tidak hanya mampu mengecilkan perut, namun juga meningkatkan kekuatan otot dan tulang, menjaga kesehatan jantung, serta meningkatkan kualitas tidur. Anda dianjurkan berenang selama 20-30 menit setidaknya 2-3 kali seminggu.")
                               ],
                             ),
                           ),
@@ -188,7 +188,6 @@ class MengecilkanPerut extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -200,7 +199,8 @@ class MengecilkanPerut extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Gerakan dalam senam aerobik dipercaya dapat membakar kalori secara bertahap, sehingga mampu mengecilkan perut. Tidak hanya itu, jenis senam ini juga baik untuk mengendalikan stres serta meningkatkan kekuatan sendi dan tulang.")
+                                Text(
+                                    "Gerakan dalam senam aerobik dipercaya dapat membakar kalori secara bertahap, sehingga mampu mengecilkan perut. Tidak hanya itu, jenis senam ini juga baik untuk mengendalikan stres serta meningkatkan kekuatan sendi dan tulang.")
                               ],
                             ),
                           ),

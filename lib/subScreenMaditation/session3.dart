@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class MeditasiChakra extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -56,8 +54,10 @@ class MeditasiChakra extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan Meditasi yang aman dan efektif, di antaranya sebagai berikut:",style:
-                          TextStyle(fontSize: 15),),
+                    Text(
+                      "cara melakukan Meditasi yang aman dan efektif, di antaranya sebagai berikut:",
+                      style: TextStyle(fontSize: 15),
+                    ),
                     SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
@@ -77,7 +77,6 @@ class MeditasiChakra extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -89,7 +88,8 @@ class MeditasiChakra extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Meditasi chakra dimulai dengan duduk dalam posisi yang nyaman dengan punggung lurus tetapi tidak tegang. Kemudian fokus pada setiap bagian tubuh kamu. Mulai dari kaki kamu sampai ujung kepala.")
+                                Text(
+                                    "Meditasi chakra dimulai dengan duduk dalam posisi yang nyaman dengan punggung lurus tetapi tidak tegang. Kemudian fokus pada setiap bagian tubuh kamu. Mulai dari kaki kamu sampai ujung kepala.")
                               ],
                             ),
                           ),
@@ -114,7 +114,6 @@ class MeditasiChakra extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -126,7 +125,8 @@ class MeditasiChakra extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Langkah selanjutnya dalam meditasi chakra adalah fokus pada nafas.Jika pikiran kamu terganggu, berusahalah kembali ke napas dan pertahankan fokus pada setiap inhalasi dan pernafasan yang kamu ambil. ")
+                                Text(
+                                    "Langkah selanjutnya dalam meditasi chakra adalah fokus pada nafas.Jika pikiran kamu terganggu, berusahalah kembali ke napas dan pertahankan fokus pada setiap inhalasi dan pernafasan yang kamu ambil. ")
                               ],
                             ),
                           ),
@@ -151,7 +151,6 @@ class MeditasiChakra extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,7 +162,8 @@ class MeditasiChakra extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Lihat bagaimana semua bagian bekerja bersama secara harmonis. Lihat bagaimana nafas menopang semua bagian ini dan tubuh secara keseluruhan. Sadari bagaimana nafas adalah kekuatan yang memberi hidup seluruh anggota tubuh kamu.")
+                                Text(
+                                    "Lihat bagaimana semua bagian bekerja bersama secara harmonis. Lihat bagaimana nafas menopang semua bagian ini dan tubuh secara keseluruhan. Sadari bagaimana nafas adalah kekuatan yang memberi hidup seluruh anggota tubuh kamu.")
                               ],
                             ),
                           ),
@@ -188,7 +188,6 @@ class MeditasiChakra extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -200,7 +199,8 @@ class MeditasiChakra extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("membayangkan kehidupan bisa memberi energi dari udara yang kamu hirup. Lihat energi ini sebagai warna oranye kekuningan. Bayangkan energi ini meliputi seluruh tubuh kamu dan meresapi auramu.")
+                                Text(
+                                    "membayangkan kehidupan bisa memberi energi dari udara yang kamu hirup. Lihat energi ini sebagai warna oranye kekuningan. Bayangkan energi ini meliputi seluruh tubuh kamu dan meresapi auramu.")
                               ],
                             ),
                           ),

@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class MeditasiVipassana extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -56,8 +54,10 @@ class MeditasiVipassana extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan meditasi yang aman dan efektif, di antaranya sebagai berikut:",style:
-                          TextStyle(fontSize: 15),),
+                    Text(
+                      "cara melakukan meditasi yang aman dan efektif, di antaranya sebagai berikut:",
+                      style: TextStyle(fontSize: 15),
+                    ),
                     SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
@@ -77,7 +77,6 @@ class MeditasiVipassana extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -89,7 +88,8 @@ class MeditasiVipassana extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Sama seperti jenis meditasi lainnya, meditasi Vipassana dianggap mampu meredakan stres. Pada sebuah studi di tahun 2014, partisipan yang mengikuti meditasi ini selama enam bulan mampu meredakan perasaan stresnya, dibandingkan mereka yang tidak mengikutinya.")
+                                Text(
+                                    "Sama seperti jenis meditasi lainnya, meditasi Vipassana dianggap mampu meredakan stres. Pada sebuah studi di tahun 2014, partisipan yang mengikuti meditasi ini selama enam bulan mampu meredakan perasaan stresnya, dibandingkan mereka yang tidak mengikutinya.")
                               ],
                             ),
                           ),
@@ -114,7 +114,6 @@ class MeditasiVipassana extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -126,7 +125,8 @@ class MeditasiVipassana extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Selain meredakan stres, meditasi Vipassana juga diyakini ampuh dalam meredakan rasa cemas di dalam pikiran kita.")
+                                Text(
+                                    "Selain meredakan stres, meditasi Vipassana juga diyakini ampuh dalam meredakan rasa cemas di dalam pikiran kita.")
                               ],
                             ),
                           ),
@@ -151,7 +151,6 @@ class MeditasiVipassana extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,7 +162,8 @@ class MeditasiVipassana extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Kemampuan meditasi Vipassana dalam meredakan stres ternyata membawa dampak baik terhadap aspek kesejahteraan mental lainnya.")
+                                Text(
+                                    "Kemampuan meditasi Vipassana dalam meredakan stres ternyata membawa dampak baik terhadap aspek kesejahteraan mental lainnya.")
                               ],
                             ),
                           ),
@@ -188,7 +188,6 @@ class MeditasiVipassana extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -200,7 +199,8 @@ class MeditasiVipassana extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Rutin bermeditasi, termasuk meditasi Vipassana, dapat meningkatkan plastisitas otak. Plastisitas otak adalah istilah yang mengacu pada kemampuan otak untuk berubah dan beradaptasi sesuai kebutuhan fungsional.")
+                                Text(
+                                    "Rutin bermeditasi, termasuk meditasi Vipassana, dapat meningkatkan plastisitas otak. Plastisitas otak adalah istilah yang mengacu pada kemampuan otak untuk berubah dan beradaptasi sesuai kebutuhan fungsional.")
                               ],
                             ),
                           ),

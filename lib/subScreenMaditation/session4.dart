@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class MeditasiTonglen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -56,8 +54,10 @@ class MeditasiTonglen extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan Meditasi yang aman dan efektif, di antaranya sebagai berikut:",style:
-                          TextStyle(fontSize: 15),),
+                    Text(
+                      "cara melakukan Meditasi yang aman dan efektif, di antaranya sebagai berikut:",
+                      style: TextStyle(fontSize: 15),
+                    ),
                     SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
@@ -77,7 +77,6 @@ class MeditasiTonglen extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -89,7 +88,8 @@ class MeditasiTonglen extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Memang kalau kita telah mengerti bagaimana cara atau metode melakukan Meditasi Tong Len ini - mungkin saja timbul  kesan bahwa metode yang dipakai memang dapat dikatakan ekstrem - dengan catatan bahwa metode ekstrem ini dilakukan semata-mata dengan tujuan yang sangat positip dan sungguh baik. ")
+                                Text(
+                                    "Memang kalau kita telah mengerti bagaimana cara atau metode melakukan Meditasi Tong Len ini - mungkin saja timbul  kesan bahwa metode yang dipakai memang dapat dikatakan ekstrem - dengan catatan bahwa metode ekstrem ini dilakukan semata-mata dengan tujuan yang sangat positip dan sungguh baik. ")
                               ],
                             ),
                           ),
@@ -114,7 +114,6 @@ class MeditasiTonglen extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -126,7 +125,8 @@ class MeditasiTonglen extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("disertai pelafalan 3 suku kata sakral : OM - AH dan HUM.  Dalam konteks Meditasi Tong Len ini - OM , AH  dan HUM  berfungsi sebagai Pembersih Batin. ")
+                                Text(
+                                    "disertai pelafalan 3 suku kata sakral : OM - AH dan HUM.  Dalam konteks Meditasi Tong Len ini - OM , AH  dan HUM  berfungsi sebagai Pembersih Batin. ")
                               ],
                             ),
                           ),
@@ -151,7 +151,6 @@ class MeditasiTonglen extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,7 +162,8 @@ class MeditasiTonglen extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Tarik napas panjang - ucapkan  OM  - sambil bervisualisasi bahwa kita menarik seluruh penderitaan makhluk yang ada di 6 Alam Kehidupan.")
+                                Text(
+                                    "Tarik napas panjang - ucapkan  OM  - sambil bervisualisasi bahwa kita menarik seluruh penderitaan makhluk yang ada di 6 Alam Kehidupan.")
                               ],
                             ),
                           ),
@@ -188,7 +188,6 @@ class MeditasiTonglen extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -200,7 +199,8 @@ class MeditasiTonglen extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("kita turunkan ke perut bagian bawah sambil melafal  AH  - dengan visualisasi mengolah seluruh penderitaan makhluk tersebut menjadi suatu enerji positip - menjadi pancaran Cintakasih dan Belaskasih. ")
+                                Text(
+                                    "kita turunkan ke perut bagian bawah sambil melafal  AH  - dengan visualisasi mengolah seluruh penderitaan makhluk tersebut menjadi suatu enerji positip - menjadi pancaran Cintakasih dan Belaskasih. ")
                               ],
                             ),
                           ),

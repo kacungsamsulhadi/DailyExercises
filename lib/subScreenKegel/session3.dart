@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class Hamil extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -56,8 +54,10 @@ class Hamil extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan Kegel yang aman dan efektif, di antaranya sebagai berikut:",style:
-                          TextStyle(fontSize: 15),),
+                    Text(
+                      "cara melakukan Kegel yang aman dan efektif, di antaranya sebagai berikut:",
+                      style: TextStyle(fontSize: 15),
+                    ),
                     SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
@@ -77,7 +77,6 @@ class Hamil extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -89,7 +88,8 @@ class Hamil extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Latihan ini bermanfaat untuk menguatkan otot di punggung, paha, dan panggul. Fleksibilitas sendi panggul akan terlatih dan proses bersalin pun akan lebih mudah.")
+                                Text(
+                                    "Latihan ini bermanfaat untuk menguatkan otot di punggung, paha, dan panggul. Fleksibilitas sendi panggul akan terlatih dan proses bersalin pun akan lebih mudah.")
                               ],
                             ),
                           ),
@@ -114,7 +114,6 @@ class Hamil extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -126,7 +125,8 @@ class Hamil extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Senam perut termasuk gerakan senam ibu hamil agar mudah melahirkan. Latihan ini akan memperkuat otot perut, dan meminimalkan nyeri punggung selama kehamilan serta persalinan.")
+                                Text(
+                                    "Senam perut termasuk gerakan senam ibu hamil agar mudah melahirkan. Latihan ini akan memperkuat otot perut, dan meminimalkan nyeri punggung selama kehamilan serta persalinan.")
                               ],
                             ),
                           ),
@@ -151,7 +151,6 @@ class Hamil extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,7 +162,8 @@ class Hamil extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Gerakan mengangkat panggul bisa menjadi senam hamil untuk memperlancar persalinan, karena membantu mengencangkan otot perut dan membuat Anda rileks selama proses persalinan.")
+                                Text(
+                                    "Gerakan mengangkat panggul bisa menjadi senam hamil untuk memperlancar persalinan, karena membantu mengencangkan otot perut dan membuat Anda rileks selama proses persalinan.")
                               ],
                             ),
                           ),
@@ -188,7 +188,6 @@ class Hamil extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -200,7 +199,8 @@ class Hamil extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Senam hamil dengan gerakan sujud dapat membantu mencegah kelahiran sungsang dan memperlancar proses melahirkan.")
+                                Text(
+                                    "Senam hamil dengan gerakan sujud dapat membantu mencegah kelahiran sungsang dan memperlancar proses melahirkan.")
                               ],
                             ),
                           ),

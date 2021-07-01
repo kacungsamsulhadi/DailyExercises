@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class BikramYoga extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -56,8 +54,10 @@ class BikramYoga extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan Yoga yang aman dan efektif, di antaranya sebagai berikut:",style:
-                          TextStyle(fontSize: 15),),
+                    Text(
+                      "cara melakukan Yoga yang aman dan efektif, di antaranya sebagai berikut:",
+                      style: TextStyle(fontSize: 15),
+                    ),
                     SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
@@ -77,7 +77,6 @@ class BikramYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -89,7 +88,8 @@ class BikramYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Manfaatkan waktu beberapa menit sebelum memulai latihan lewat adaptasi dengan suhu ruangan. Caranya,lakukan pose savasana (dead body pose), bernapas perlahan, dan menikmati alur masuk-keluar udara di tubuh Anda. ")
+                                Text(
+                                    "Manfaatkan waktu beberapa menit sebelum memulai latihan lewat adaptasi dengan suhu ruangan. Caranya,lakukan pose savasana (dead body pose), bernapas perlahan, dan menikmati alur masuk-keluar udara di tubuh Anda. ")
                               ],
                             ),
                           ),
@@ -114,7 +114,6 @@ class BikramYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -126,7 +125,8 @@ class BikramYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Usahakan minum maksimal dua jam sebelum memulai sesi latihan. Soalnya, perut yang terisi air akan menimbulkan perasaan mual saat melakukan gerakan. ")
+                                Text(
+                                    "Usahakan minum maksimal dua jam sebelum memulai sesi latihan. Soalnya, perut yang terisi air akan menimbulkan perasaan mual saat melakukan gerakan. ")
                               ],
                             ),
                           ),
@@ -151,7 +151,6 @@ class BikramYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,7 +162,8 @@ class BikramYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Sama halnya dengan minum, Anda juga harus membatasai asupan makan yang masuk beberapa jam sebelum latihan dimulai. Mungkin Anda mengira harus mengisi energi supaya punya tenaga saat yoga. ")
+                                Text(
+                                    "Sama halnya dengan minum, Anda juga harus membatasai asupan makan yang masuk beberapa jam sebelum latihan dimulai. Mungkin Anda mengira harus mengisi energi supaya punya tenaga saat yoga. ")
                               ],
                             ),
                           ),
@@ -188,7 +188,6 @@ class BikramYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -200,7 +199,8 @@ class BikramYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Di 30 menit pertama, pasti ada perasaan panik, suhu yang panas, merasa sulit mendapat udara segar; ini adalah perasaan yang timbul di awal-awal latihan. Normal, kok.")
+                                Text(
+                                    "Di 30 menit pertama, pasti ada perasaan panik, suhu yang panas, merasa sulit mendapat udara segar; ini adalah perasaan yang timbul di awal-awal latihan. Normal, kok.")
                               ],
                             ),
                           ),

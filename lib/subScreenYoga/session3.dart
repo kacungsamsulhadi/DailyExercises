@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class IyengarYoga extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -56,8 +54,10 @@ class IyengarYoga extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan Yoga yang aman dan efektif, di antaranya sebagai berikut:",style:
-                          TextStyle(fontSize: 15),),
+                    Text(
+                      "cara melakukan Yoga yang aman dan efektif, di antaranya sebagai berikut:",
+                      style: TextStyle(fontSize: 15),
+                    ),
                     SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
@@ -77,7 +77,6 @@ class IyengarYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -89,7 +88,8 @@ class IyengarYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text(" Iyengar yoga  membutuhkan kemahiran dan fleksibilitas yang lebih dibanding dengan jenis yoga yang lain. Seringkali, asana harus diajarkan dan dibimbing secara ketat oleh seorang guru yang terlatih.")
+                                Text(
+                                    " Iyengar yoga  membutuhkan kemahiran dan fleksibilitas yang lebih dibanding dengan jenis yoga yang lain. Seringkali, asana harus diajarkan dan dibimbing secara ketat oleh seorang guru yang terlatih.")
                               ],
                             ),
                           ),
@@ -114,7 +114,6 @@ class IyengarYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -126,7 +125,8 @@ class IyengarYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Ketika berlatih Iyengar yoga, Anda dituntut untuk melakukan satu pose lebih lama dibanding ketika Anda melakukan pose yang sama pada jenis yoga yang lain.")
+                                Text(
+                                    "Ketika berlatih Iyengar yoga, Anda dituntut untuk melakukan satu pose lebih lama dibanding ketika Anda melakukan pose yang sama pada jenis yoga yang lain.")
                               ],
                             ),
                           ),
@@ -151,7 +151,6 @@ class IyengarYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,7 +162,8 @@ class IyengarYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Pada beberapa jenis yoga lain, pranayama diajarkan segera setelah berlatih asana. Tetapi dalam Iyengar yoga, Mahaguru  BKS Iyengar menekankan bahwa seseorang baru bisa belajar pranayama hanya setelah mereka  menguasai asana.")
+                                Text(
+                                    "Pada beberapa jenis yoga lain, pranayama diajarkan segera setelah berlatih asana. Tetapi dalam Iyengar yoga, Mahaguru  BKS Iyengar menekankan bahwa seseorang baru bisa belajar pranayama hanya setelah mereka  menguasai asana.")
                               ],
                             ),
                           ),
@@ -188,7 +188,6 @@ class IyengarYoga extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -200,7 +199,8 @@ class IyengarYoga extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Mahaguru BKS Iyengar menekankan keselarasan dan ketepatan dari semua bagian tubuh saat melakukan asana. Untuk memfasilitasi ini, dia mengembangkan beberapa alat  seperti yoga blok, kursi, selimut dan belt dan tali khusus")
+                                Text(
+                                    "Mahaguru BKS Iyengar menekankan keselarasan dan ketepatan dari semua bagian tubuh saat melakukan asana. Untuk memfasilitasi ini, dia mengembangkan beberapa alat  seperti yoga blok, kursi, selimut dan belt dan tali khusus")
                               ],
                             ),
                           ),

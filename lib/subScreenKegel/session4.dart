@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
-import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 
 class MerapatkanMissV extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -56,8 +54,10 @@ class MerapatkanMissV extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text("cara melakukan kegel yang aman dan efektif, di antaranya sebagai berikut:",style:
-                          TextStyle(fontSize: 15),),
+                    Text(
+                      "cara melakukan kegel yang aman dan efektif, di antaranya sebagai berikut:",
+                      style: TextStyle(fontSize: 15),
+                    ),
                     SizedBox(height: 0),
                     Container(
                       margin: EdgeInsets.symmetric(vertical: 20),
@@ -77,7 +77,6 @@ class MerapatkanMissV extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                         
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -89,7 +88,8 @@ class MerapatkanMissV extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Untuk menggunakannya, bola harus dimasukkan ke dalam vagina seperti tampon. Fungsi bola ini adalah membantu memperkuat dasar panggul dan bisa memberikan kenyamanan.")
+                                Text(
+                                    "Untuk menggunakannya, bola harus dimasukkan ke dalam vagina seperti tampon. Fungsi bola ini adalah membantu memperkuat dasar panggul dan bisa memberikan kenyamanan.")
                               ],
                             ),
                           ),
@@ -114,7 +114,6 @@ class MerapatkanMissV extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -126,7 +125,8 @@ class MerapatkanMissV extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Latihan yang satu ini sangat bagus untuk mengencangkan miss V, Moms. Mulailah dengan berbaring di atas alas yoga, angkat lutut ke atas dengan posisi kaki melebar (jangan rapat) dan telapak menyentuh lantai.")
+                                Text(
+                                    "Latihan yang satu ini sangat bagus untuk mengencangkan miss V, Moms. Mulailah dengan berbaring di atas alas yoga, angkat lutut ke atas dengan posisi kaki melebar (jangan rapat) dan telapak menyentuh lantai.")
                               ],
                             ),
                           ),
@@ -151,7 +151,6 @@ class MerapatkanMissV extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -163,7 +162,8 @@ class MerapatkanMissV extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Leg ups adalah latihan yang bagus untuk mengencangkan miss V karena membangun kekuatan otot dan bisa membuat Moms merasa lebih percaya diri.")
+                                Text(
+                                    "Leg ups adalah latihan yang bagus untuk mengencangkan miss V karena membangun kekuatan otot dan bisa membuat Moms merasa lebih percaya diri.")
                               ],
                             ),
                           ),
@@ -188,7 +188,6 @@ class MerapatkanMissV extends StatelessWidget {
                       ),
                       child: Row(
                         children: <Widget>[
-                          
                           SizedBox(width: 20),
                           Expanded(
                             child: Column(
@@ -200,7 +199,8 @@ class MerapatkanMissV extends StatelessWidget {
                                   // ignore: deprecated_member_use
                                   style: Theme.of(context).textTheme.subtitle,
                                 ),
-                                Text("Berlatih squats sangat sempurna untuk memperkuat bokong dan juga mengencangkan dasar panggul yang nantinya berkaitan juga dengan kekencangan miss V.")
+                                Text(
+                                    "Berlatih squats sangat sempurna untuk memperkuat bokong dan juga mengencangkan dasar panggul yang nantinya berkaitan juga dengan kekencangan miss V.")
                               ],
                             ),
                           ),
