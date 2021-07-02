@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:meditation_app/auth/firebaseAuth.dart';
-import 'package:meditation_app/screens/authScreens/login.dart';
 import 'package:meditation_app/widgets/buttonLogout.dart';
 import 'package:meditation_app/widgets/inputBerat.dart';
 import 'package:meditation_app/widgets/inputTinggi.dart';
