@@ -43,7 +43,7 @@ class YogaScreen extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     SizedBox(
-                      width: size.width * .6, // it just take 60% of total width
+                      width: size.width * .6,
                       child: Text(
                         "Relaksasi yang dilakukan dengan cara melatih konsentrasi dan fokus pikiran untuk mendapatkan perasaan tenang dan damai. \n",
                         style: TextStyle(
@@ -57,9 +57,7 @@ class YogaScreen extends StatelessWidget {
                       runSpacing: 20,
                       children: <Widget>[
                         SeassionCard(
-                          //session1
                           seassionNum: 1,
-                          //isDone: true,
                           press: () {
                             Navigator.push(
                               context,
@@ -70,7 +68,6 @@ class YogaScreen extends StatelessWidget {
                           },
                         ),
                         SeassionCard(
-                          //session2
                           seassionNum: 2,
                           press: () {
                             Navigator.push(
@@ -82,7 +79,6 @@ class YogaScreen extends StatelessWidget {
                           },
                         ),
                         SeassionCard(
-                          //session3
                           seassionNum: 3,
                           press: () {
                             Navigator.push(
@@ -94,7 +90,6 @@ class YogaScreen extends StatelessWidget {
                           },
                         ),
                         SeassionCard(
-                          //session4
                           seassionNum: 4,
                           press: () {
                             Navigator.push(

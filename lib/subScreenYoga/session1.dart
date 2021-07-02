@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
 
 class HathaYoga extends StatelessWidget {
@@ -45,7 +44,7 @@ class HathaYoga extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     SizedBox(
-                      width: size.width * .6, // it just take 60% of total width
+                      width: size.width * .6,
                       child: Text(
                         "Hatha yoga adalah fondasi dari seluruh jenis yoga yang memadukan asana (pose), pranayama (pernapasan), dan meditasi. Umumnya, kelas hatha yoga berlangsung dengan alur tidak terlalu cepat sehingga membuat peserta yoga merasa rileks. \n",
                         style: TextStyle(
