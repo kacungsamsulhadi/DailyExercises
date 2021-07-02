@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app/auth/firebaseAuth.dart';
 import 'package:meditation_app/screens/authScreens/login.dart';
+import 'package:meditation_app/widgets/buttonLogout.dart';
 import 'package:meditation_app/widgets/inputBerat.dart';
 import 'package:meditation_app/widgets/inputTinggi.dart';
 
@@ -131,40 +132,7 @@ class _CalculateScreenState extends State<CalculateScreen> {
                         SizedBox(
                           height: 50,
                         ),
-                        Container(
-                          padding: EdgeInsets.only(top: 10),
-                          width: double.infinity,
-                          child: RaisedButton(
-                            elevation: 5.0,
-                            onPressed: () {
-                              setState(() {
-                                isLoading = true;
-                              });
-                              AuthClass().signOut();
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(builder: (context) {
-                                  return LoginPage();
-                                }),
-                              );
-                            },
-                            padding: EdgeInsets.all(15.0),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(30.0),
-                            ),
-                            color: Colors.blue.shade400,
-                            child: Text(
-                              'Logout',
-                              style: TextStyle(
-                                color: Colors.white,
-                                letterSpacing: 1.5,
-                                fontSize: 18.0,
-                                fontWeight: FontWeight.bold,
-                                fontFamily: 'OpenSans',
-                              ),
-                            ),
-                          ),
-                        ),
+                        buttonLogout(),
                       ],
                     ),
                   ),
