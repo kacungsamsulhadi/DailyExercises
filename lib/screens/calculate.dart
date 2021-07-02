@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:meditation_app/auth/firebaseAuth.dart';
 import 'package:meditation_app/screens/authScreens/login.dart';
 
+import '../widgets/results.dart';
+
 class CalculateScreen extends StatefulWidget {
   @override
   State<CalculateScreen> createState() => _CalculateScreenState();
@@ -142,41 +144,8 @@ class _CalculateScreenState extends State<CalculateScreen> {
                             ),
                           ),
                         ),
-                        Column(
-                          children: [
-                            SizedBox(
-                              height: 20,
-                            ),
-                            Text(
-                              "Hasil:",
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            SizedBox(
-                              height: 20,
-                            ),
-                            Text(
-                              "$_result",
-                              style: TextStyle(
-                                  fontSize: 25, fontWeight: FontWeight.bold),
-                            ),
-                            SizedBox(
-                              height: 20,
-                            ),
-                            Text(
-                              "$_hasil",
-                              style: TextStyle(
-                                  fontSize: 25, fontWeight: FontWeight.bold),
-                            ),
-                            SizedBox(
-                              height: 5,
-                            ),
-                            Text(
-                              "$_result2",
-                              style: TextStyle(fontSize: 18),
-                            ),
-                          ],
-                        ),
+                        result(
+                            result: _result, hasil: _hasil, result2: _result2),
                         SizedBox(
                           height: 50,
                         ),
