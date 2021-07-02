@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app/auth/firebaseAuth.dart';
 import 'package:meditation_app/screens/authScreens/login.dart';
+import 'package:meditation_app/widgets/inputTinggi.dart';
 
 import '../widgets/results.dart';
 
@@ -89,31 +90,11 @@ class _CalculateScreenState extends State<CalculateScreen> {
                         new Padding(
                           padding: EdgeInsets.only(top: 30),
                         ),
-                        TextFormField(
-                          controller: controllerBerat,
-                          keyboardType: TextInputType.number,
-                          decoration: new InputDecoration(
-                            hintText: "Masukkan Berat Badan Anda /Kg",
-                            labelText: "Berat Badan (Kg)",
-                            border: new OutlineInputBorder(
-                              borderRadius: new BorderRadius.circular(20.0),
-                            ),
-                          ),
-                        ),
+                        inputBerat(controllerBerat: controllerBerat),
                         new Padding(
                           padding: EdgeInsets.only(top: 30),
                         ),
-                        TextFormField(
-                          controller: controllerTinggi,
-                          keyboardType: TextInputType.number,
-                          decoration: new InputDecoration(
-                            hintText: "Masukkan Tinggi Badan Anda /M",
-                            labelText: "Tinggi Badan (M)",
-                            border: new OutlineInputBorder(
-                              borderRadius: new BorderRadius.circular(20.0),
-                            ),
-                          ),
-                        ),
+                        inputTinggi(controllerTinggi: controllerTinggi),
                         SizedBox(
                           height: 15,
                         ),
@@ -191,6 +172,30 @@ class _CalculateScreenState extends State<CalculateScreen> {
             ),
           )
         ],
+      ),
+    );
+  }
+}
+
+class inputBerat extends StatelessWidget {
+  const inputBerat({
+    Key key,
+    @required this.controllerBerat,
+  }) : super(key: key);
+
+  final TextEditingController controllerBerat;
+
+  @override
+  Widget build(BuildContext context) {
+    return TextFormField(
+      controller: controllerBerat,
+      keyboardType: TextInputType.number,
+      decoration: new InputDecoration(
+        hintText: "Masukkan Berat Badan Anda /Kg",
+        labelText: "Berat Badan (Kg)",
+        border: new OutlineInputBorder(
+          borderRadius: new BorderRadius.circular(20.0),
+        ),
       ),
     );
   }
